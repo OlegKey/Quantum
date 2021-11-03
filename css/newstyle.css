@@ -1,0 +1,301 @@
+#YouTubeVid {
+	max-width: 800px;
+	width: 100%;
+}
+.results h1 {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 40px;
+	font-family:inherit;
+    /* text-shadow: 0 2px 1px rgba(0, 0, 0, 0.4); */
+}
+.verifiedacc
+{
+	width:100%;
+}
+.verified
+{
+	/*width:37% !important;*/
+	margin:1% 2% 1% 2%;
+}
+.checkresults
+{
+	width:80%;
+}
+.results
+{
+	width:46% !important;
+	margin:1% 2% 2% 2%;
+	float:left !important;
+}
+@media (max-width:769px) {
+#widget47,#widget76_3,#widget76_2,#faq
+{
+	display:none;
+}
+.leftarrow,.rightarrow
+{
+	display:none;
+}
+.verifiedwid
+{
+	width:170px !important;
+}
+.lname
+{
+	width:49% !important;
+}
+.telephone
+{
+	width:78% !important;
+}
+
+#widget
+{
+	width:100% !important;
+}
+.securityimg
+{
+	width:90% !important;
+	margin:0 auto 10px !important;
+	max-width:90% !important;
+}
+.stepsimg
+{
+	width:90% !important;
+	margin:0 auto 10px !important;
+	max-width:90% !important;
+}
+.supportimg
+{
+	width:90% !important;
+	margin:0 auto !important;
+	max-width:90% !important;
+}
+.meimg
+{
+	height:100px !important;
+	width:90% !important;
+	margin:0 auto !important;
+	max-width:90% !important;
+}
+.form
+{
+	width:100% !important;
+}
+.bottomform
+{
+	width:100% !important;
+}
+.corytopheader
+{
+	display:none;
+}
+.video
+{
+	width:100% !important;
+	height:300px !important;
+	float:left;
+}
+.videotd
+{
+	width:100% !important;
+	float:left;
+	height:300px;
+}
+.formtd
+{
+	width:100% !important;
+	float:left !important;
+	margin:20px 0 0 0 !important;
+}
+.videoiframe
+{
+	width:100% !important;
+	margin:0 auto;
+	height:300px !important;
+}
+.tradestatistics
+{
+	width:100% !important;
+	height:440px;
+}
+.verifiedacc
+{
+	width:100% !important;
+}
+.verified
+{
+	width:78% !important;
+	margin:10px 0 10px 0 !important;
+}
+.checkresults
+{
+	width:100% !important;
+}
+.resultimages
+{
+	width:100% !important;
+	float:left !important;
+	margin:0 0 10px 0 !important;
+}
+.names
+{
+	display:none !important;
+}
+.zopim
+{
+	display:none !important;
+}
+.tdlogo
+{
+	width:100% !important;
+	float:left;
+}
+.tdheadline
+{
+	width:100% !important;
+	float:left;
+}
+.headline
+{
+	width:90% !important;
+	margin:0 auto !important;
+}
+header h1
+{
+	margin-bottom: 10px !important;
+}
+.ipadvideo
+{
+	background:none !important;
+	width:100% !important;
+}
+.videoipad
+{
+	width:100% !important;
+	height:300px !important;
+}
+.faq
+{
+	width:100% !important;
+	height:400px !important;
+	overflow:scroll !important;
+}
+.support
+{
+	width:100% !important;
+}
+.securitylogo
+{
+	width:100% !important;
+}
+}
+@media (max-width:500px) {
+	.qclogo
+	{
+		width:70% !important;
+		margin:10px auto 0 !important;
+	}
+	#YouTubeVid
+	{
+		height:175px !important;
+		margin:20px auto 0 !important;
+	}
+	.securityimg
+	{
+		width:90% !important;
+		height:40px !important;
+		margin:0 auto 10px !important;
+		max-width:90% !important;
+	}
+	.supportimg
+{
+	height:100px !important;
+	width:90% !important;
+	margin:0 auto !important;
+	max-width:90% !important;
+}
+	.verifiedwid
+{
+	width:190px !important;
+}
+	#submit
+{
+	font-size:18px !important;
+}
+.stepsimg
+{
+	height:40px !important;
+	width:90% !important;
+	margin:0 auto !important;
+	max-width:90% !important;
+}
+.widget
+{
+	width:100% !important;
+}
+header h1 strong
+{
+	font-size:13px !important;
+}
+.video
+{
+	background:transparent;
+}
+.videoiframe
+{
+	height:175px !important;
+	width:300px !important;
+}
+.videotd
+{
+	height:175px;
+}
+.tradestatistics
+{
+	display:none;
+}
+.verified
+{
+	width:100% !important;
+	margin:10px 0 10px 0 !important;
+}
+.results
+{
+	width:100% !important;
+	margin:1% 0 2% 0;
+	float:left !important;
+}
+.videoplace
+{
+	width:100% !important;
+	height:175px;
+}
+.howitworks
+{
+	margin-top:20px !important;
+}
+.faqtitle
+{
+	margin:20px 0 0 0;
+}
+}
+@media (max-width:400px)
+{
+	#submit
+{
+	font-size:15px !important;
+}
+.verifiedwid
+{
+	width:170px !important;
+	padding-right:5px !important;
+}
+	#YouTubeVid
+	{
+		height:175px !important;
+		margin:20px auto 0 !important;
+	}
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://thequantomcoding.com/76_2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProfitMaximizer Make Big Profits On Autopilot</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!--<link href="./76_2_files/css_002(1).css" rel="stylesheet" type="text/css">-->
+    <link rel="stylesheet" href="../css/style(2).css">
+    <style type="text/css"></style>
+    <!--<script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/lib/popup.js"
+            async=""></script>
+    <script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/lib/tat_popup.js"
+            async=""></script>-->
+</head>
+<body class="">
+<div class="count left copies">
+    <div class="value" id="copies">155</div>
+    <div class="desc">PEOPLE ON THIS PAGE</div>
+</div>
+<script src="../js/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script>
+    function rand(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    var c = rand(101, 110);
+    $("#copies").html(c);
+
+    function copies() {
+        var el = $("#copies");
+        var left = parseInt($(el).html());
+        left = left < 250 ? left + rand(-1, 3) : left - rand(1, 3);
+        $(el).html(left);
+        setTimeout('copies()', rand(6000, 9000));
+    }
+
+    $(function () {
+        copies();
+    });
+</script>
+
+</body></html>
+

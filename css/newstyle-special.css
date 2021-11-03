@@ -1,0 +1,127 @@
+@media (max-width:768px)
+{
+	#widget76, #widget76_2
+	{
+		display:none !important;
+	}
+	.top
+	{
+		width:100% !important;
+	}
+	.qclogo
+	{
+		width:90% !important;
+		margin:10px auto 0 !important;
+	}
+	.imprimg
+	{
+		width:90% !important;
+		height:80px !important;
+		margin:10px auto 0 !important;
+	}
+	#YouTubeVid
+	{
+		width:100% !important;
+	}
+	.form
+	{
+		margin:0 auto !important;
+		float:none !important;
+	}
+	#index-form .submit
+	{
+		font-size:22px !important;
+	}
+	.footer
+	{
+		width:100% !important;
+		margin:0 auto !important;
+	}
+	.sslimg
+	{
+		margin:0 auto !important;
+		max-width:90% !important;
+	}
+	.securityimg
+	{
+		width:90% !important;
+		margin:0 auto !important;
+		max-width:90% !important;
+	}
+}
+@media (max-width:500px)
+{
+	.top
+	{
+		margin:0 auto !important;
+	}
+	#home form input.name
+	{
+		margin-right:0 !important;
+	}
+	#home form input.email
+	{
+		margin-left:0 !important;
+	}
+	#index-form .submit
+	{
+		font-size:20px !important;
+	}
+	.embed-container
+	{
+		width:300px !important;
+		height:175px !important;
+		padding-bottom:42% !important;
+		margin: 20px auto 0 !important;
+	}
+	#home form input
+	{
+		float:none !important;
+		width:100% !important;
+		height:50px !important;
+		font-size:18px !important;
+		background-position:0px -4px !important;
+	}
+	form .btn
+	{
+		padding:10px !important;
+	}
+	#YouTubeVid
+	{
+		width:300px !important;
+		height:175px !important;
+		margin:0 auto !important;
+	}
+	.sslimg
+	{
+		height:40px !important;
+		margin:0 auto !important;
+		max-width:90% !important;
+	}
+	.securityimg
+	{
+		width:90% !important;
+		height:30px !important;
+		margin:0 auto !important;
+		max-width:90% !important;
+	}
+}
+@media (max-width:400px)
+{
+	.embed-container
+	{
+		width:300px !important;
+		height:175px !important;
+		margin: 20px auto 0 !important;
+	}
+	#YouTubeVid
+	{
+		width:300px !important;
+		height:175px !important;
+		margin:0 auto !important;
+	}
+	#index-form .submit
+	{
+		font-size:16px !important;
+	}
+}

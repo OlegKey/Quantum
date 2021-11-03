@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://landmoneup.quest/parts/live3/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <title>LIVE</title>
+    <link href="./LIVE_files/inter-fonts.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./LIVE_files/bootstrap.min(1).css">
+    <link rel="stylesheet" href="./LIVE_files/main2.css">
+    <style type="text/css">
+        body, td, th {
+            font-family: "Roboto Condensed", sans-serif;
+            background-color: transparent !important;
+        }
+    </style>
+    <!--<script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/lib/popup.js"
+            async=""></script>
+    <script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/lib/tat_popup.js"
+            async=""></script>-->
+</head>
+<body>
+
+<div class="vertical_center">
+    <div class="profile_widget">
+        <div class="pw_avatar">
+            <img src="./LIVE_files/6(1).jpg" width="100%" alt="" id="MemberImage">
+        </div> /.pw_avatar
+        <div class="pw_info">
+            <h1 id="MemberName">Patria</h1>
+            <h2>just made profit</h2>
+            <p style="font-size:40px; color:#2062b5; font-weight:bold; letter-spacing:-1px;" id="Profit">$395</p>
+        </div><!-- /.pw_info -->
+    </div><!-- /.profile_widget -->
+</div><!-- /.vertical_center -->
+<script>
+    function rand_num(min, max) {
+        var number = min + Math.floor(Math.random() * max);
+        return number;
+    }
+    function numberCom(val) {
+        while (/(\d+)(\d{3})/.test(val.toString())) val = val.toString().replace(/(\d+)(\d{3})/, "$1" + "," + "$2");
+        return val;
+    }
+    var names = new Array("Harry", "William", "Lyle", "Frank", "Norman", "Anthony", "Morgan", "Geoffrey", "Alejandro", "Zak", "Anthony", "Kieran", "Ross", "Paul", "Sam", "Richard", "Michael", "Roger", "Charles", "Reece", "Brandon");
+    var images = new Array("1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg");
+    function mkChanges() {
+        var x = rand_num(0, names.length);
+        var name = names[x];
+        var img = images[x];
+        var profit = rand_num(100, 500);
+        document.getElementById("MemberImage").src = "../../img/peoples/" + img;
+        document.getElementById("MemberName").innerHTML = name;
+        document.getElementById("Profit").innerHTML = "$" + profit;
+        setTimeout(mkChanges, rand_num(3000, 4000));
+    }
+    setTimeout(mkChanges, rand_num(3000, 5000));
+    mkChanges();
+</script>
+
+
+
+
+</body></html>
